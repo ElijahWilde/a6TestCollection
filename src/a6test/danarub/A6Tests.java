@@ -3,12 +3,9 @@ package a6test.danarub;
 import static org.junit.Assert.*;
 import org.junit.Test;
 import a6.*;
+import a6test.emet.ROIObserverImpl;
 
 public class A6Tests {
-	
-	Pixel red = new ColorPixel(1, 0, 0);
-	Pixel green = new ColorPixel(0, 1, 0);
-	Pixel blue = new ColorPixel(0, 0, 1);
 	
 	@Test
 	public void testRegionConstructor() {
